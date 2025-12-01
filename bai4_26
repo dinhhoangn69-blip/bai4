@@ -1,0 +1,17 @@
+print("Sinh vien:Nguyen Dinh Hoang")
+print("Ma so SV : 245752021610043")
+tong = 0
+print("Nhập nhật ký giao dịch (D/R + số tiền), nhập dòng trống để kết thúc:")
+
+while True:
+    line = input()
+    if not line.strip():
+        break
+    loai, so_tien = line.split()
+    so_tien = int(so_tien)
+    if loai == 'D':
+        tong += so_tien
+    elif loai == 'W':
+        tong -= so_tien
+
+print("Số dư cuối cùng:", tong)
