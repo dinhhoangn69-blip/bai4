@@ -1,0 +1,7 @@
+print("Sinh vien:Nguyen Dinh Hoang")
+print("Ma so SV : 245752021610043")
+from math import comb
+
+n = int(input("Nhập n: "))
+pascal_line = [comb(n, k) for k in range(n + 1)]
+print("Dòng", n, "của tam giác Pascal:", pascal_line)
