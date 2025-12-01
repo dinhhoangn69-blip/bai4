@@ -1,0 +1,7 @@
+print("Sinh vien:Nguyen Dinh Hoang")
+print("Ma so SV : 245752021610043")
+
+s = input("Nhap day so: ")
+ds = s.split(',')  
+for so in ds:
+    print(int(so.strip()))  
