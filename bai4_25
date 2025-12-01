@@ -1,0 +1,6 @@
+print("Sinh vien:Nguyen Dinh Hoang")
+print("Ma so SV : 245752021610043")
+s = input("Nhập dãy số (cách nhau bởi dấu cách): ")
+ds = list(map(int, s.split()))
+le = [x for x in ds if x % 2 != 0]
+print("Các số lẻ:", le)
