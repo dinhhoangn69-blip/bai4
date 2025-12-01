@@ -1,0 +1,7 @@
+print("Sinh vien:Nguyen Dinh Hoang")
+print("Ma so SV : 245752021610043")
+ds=input('Nhap chuoi: ').split()
+print(ds)
+ds.append('abc')
+for ch in ds:
+    print(ch)
